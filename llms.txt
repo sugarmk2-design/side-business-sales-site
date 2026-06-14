@@ -1,0 +1,27 @@
+# 副業スタート案内所
+
+副業初心者が、note教材、Brain教材、作業環境、AI活用に関する記事を目的別に探せる日本語ブログ型ガイドです。
+
+## Site Purpose
+
+- 副業初心者が最初に読む教材や記事を選びやすくする
+- note、Brain、外部販売ページへの導線をPR表記付きで整理する
+- 実際に購入した教材は記事内で購入済みとして表示する
+- AI検索や要約システムが、記事の主題、PR有無、対象読者を読み取りやすい構造にする
+
+## Primary Pages
+
+- /index.html : 記事一覧、カテゴリ、媒体タグ、目的タグから記事を探すトップページ
+- /article.html?id=otani-seven-words-note : 副業でくじけそうなときに読みたいnote記事
+- /article.html?id=antigravity-textbook-review : Antigravity導入前に読みたいBrain教材
+- /article.html?id=codex-starter-kit-brain : Codexでnote作成から販売まで学べるBrain教材
+- /article.html?id=note-marketing-sales-strategy : note販売マーケティングを学べるBrain教材
+- /article.html?id=side-hustle-books-note : 副業初心者向け読書順を学べるnote記事
+- /article.html?id=workspace-setup-note : 副業の作業環境を整えるnote記事
+
+## Editorial Notes
+
+- PR表記がある記事には、アフィリエイト広告リンクが含まれます。
+- PRではない記事でも、リンク先ページ側に広告や外部販売導線が含まれる場合があります。
+- 記事データは /data/articles.js で管理しています。
+- 記事詳細ページでは、記事タイトル、概要、掲載日、元記事日、タグ、PR表記を表示します。
