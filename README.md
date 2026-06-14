@@ -27,3 +27,24 @@ node --check scripts/app.js
 ## GitHub Pages
 
 `index.html` がリポジトリルートにあるため、GitHub Pagesでは `main` ブランチの `/root` を指定すれば公開できます。独自ドメインや公開URLが決まった後に、`sitemap.xml`、canonical URL、OGP画像の絶対URLを追加してください。
+
+## 元サイトから公開用フォルダへ同期
+
+元の作業フォルダ `C:\Users\User1\副業\side_business-local\会社\開発部\sales-site` を更新した後は、公開用フォルダで以下を実行してください。
+
+```powershell
+.\sync-public-site.ps1
+```
+
+このスクリプトは公開対象ファイルだけを allowlist 方式でコピーします。会社データ、日報、業務ログ、未使用画像はコピーしません。
+
+同期後は差分を確認してからコミット・pushします。
+
+```bash
+git status
+git add .
+git commit -m "Update public sales site"
+git push
+```
+
+
