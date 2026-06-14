@@ -16,6 +16,7 @@ $publicFiles = @(
   "sitemap.xml",
   "data\articles.js",
   "scripts\app.js",
+  "scripts\analytics.js",
   "styles\styles.css",
   "assets\images\antigravity-textbook.png",
   "assets\images\antigravity-textbook.webp",
