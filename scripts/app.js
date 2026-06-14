@@ -1,9 +1,9 @@
 (function () {
   const siteName = "副業スタート案内所";
   const siteDescription = "副業初心者がnote教材、Brain教材、作業環境、AI活用を目的別に探せるブログ型ガイドです。";
-  const defaultImage = "./assets/images/side-hustle-desk-banner-v2.png";
+  const defaultImage = "./assets/images/side-hustle-desk-banner-v2.webp";
   const articles = [...(window.SALES_SITE_ARTICLES || [])].sort((a, b) => b.priority - a.priority);
-  const categories = ["すべて", "副業入門", "AI活用", "note教材", "Brain教材", "おすすめ商品"];
+  const categories = ["すべて", ...new Set(articles.map((article) => article.category))];
   const mediaTags = ["すべて", ...new Set(articles.flatMap((article) => article.mediaTags || []))];
   const purposeTags = ["すべて", ...new Set(articles.flatMap((article) => article.purposeTags || []))];
 

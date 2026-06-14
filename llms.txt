@@ -12,6 +12,9 @@
 ## Primary Pages
 
 - /index.html : 記事一覧、カテゴリ、媒体タグ、目的タグから記事を探すトップページ
+- /privacy.html : プライバシーポリシー
+- /disclaimer.html : 免責事項、広告掲載方針、外部リンク方針
+- /contact.html : 運営者情報と問い合わせ先
 - /article.html?id=otani-seven-words-note : 副業でくじけそうなときに読みたいnote記事
 - /article.html?id=antigravity-textbook-review : Antigravity導入前に読みたいBrain教材
 - /article.html?id=codex-starter-kit-brain : Codexでnote作成から販売まで学べるBrain教材
@@ -25,3 +28,4 @@
 - PRではない記事でも、リンク先ページ側に広告や外部販売導線が含まれる場合があります。
 - 記事データは /data/articles.js で管理しています。
 - 記事詳細ページでは、記事タイトル、概要、掲載日、元記事日、タグ、PR表記を表示します。
+- サイトマップは /sitemap.xml にあります。

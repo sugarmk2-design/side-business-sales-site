@@ -8,17 +8,27 @@ $ErrorActionPreference = "Stop"
 $publicFiles = @(
   "index.html",
   "article.html",
+  "privacy.html",
+  "disclaimer.html",
+  "contact.html",
   "robots.txt",
   "llms.txt",
+  "sitemap.xml",
   "data\articles.js",
   "scripts\app.js",
   "styles\styles.css",
   "assets\images\antigravity-textbook.png",
+  "assets\images\antigravity-textbook.webp",
   "assets\images\codex-starter-kit-brain.png",
+  "assets\images\codex-starter-kit-brain.webp",
   "assets\images\note-marketing-sales-strategy.png",
+  "assets\images\note-marketing-sales-strategy.webp",
   "assets\images\side-hustle-books-note.png",
+  "assets\images\side-hustle-books-note.webp",
   "assets\images\side-hustle-desk-banner-v2.png",
-  "assets\images\workspace-setup-note.png"
+  "assets\images\side-hustle-desk-banner-v2.webp",
+  "assets\images\workspace-setup-note.png",
+  "assets\images\workspace-setup-note.webp"
 )
 
 if (-not (Test-Path -LiteralPath $Source -PathType Container)) {
