@@ -47,4 +47,19 @@ git commit -m "Update public sales site"
 git push
 ```
 
+## 元サイト更新時に自動同期する
+
+元の作業フォルダの変更を監視して、公開用フォルダへ自動同期したい場合は、公開用フォルダで以下を実行します。
+
+```powershell
+.\watch-public-site.ps1
+```
+
+この監視は、起動しているPowerShellを閉じるまで有効です。変更を検知すると `sync-public-site.ps1` を呼び出し、公開対象ファイルだけを同期します。自動コミットや自動pushは行いません。
+
+動作確認だけしたい場合は、1回だけ同期して終了できます。
+
+```powershell
+.\watch-public-site.ps1 -Once
+```
 
