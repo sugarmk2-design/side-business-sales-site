@@ -1,5 +1,5 @@
 (function () {
-  const measurementId = "G-XXXXXXXXXX";
+  const measurementId = "G-2R7BJ9XWKM";
   const isConfigured = /^G-[A-Z0-9]+$/.test(measurementId) && measurementId !== "G-XXXXXXXXXX";
 
   if (!isConfigured) {
