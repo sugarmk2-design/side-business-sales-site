@@ -43,8 +43,7 @@ window.SALES_SITE_ARTICLES = [
     isPr: false,
     priority: 110,
     listedAt: "2026-06-14",
-    sourcePublishedAt: null,
-    sourcePublishedAtStatus: "未確認"
+    sourcePublishedAt: null
   },
   {
     id: "note-marketing-sales-strategy",

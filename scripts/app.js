@@ -68,7 +68,11 @@
   }
 
   function articleUrl(article) {
-    return `./article.html?id=${encodeURIComponent(article.id)}`;
+    return `./articles/${encodeURIComponent(article.id)}/`;
+  }
+
+  function ctaRel(article) {
+    return article.isPr ? "sponsored nofollow noopener noreferrer" : "noopener noreferrer";
   }
 
   function absoluteUrl(value) {
@@ -190,7 +194,7 @@
           ${renderTags(article)}
           <div class="card-actions">
             <a class="text-link" href="${articleUrl(article)}">記事を読む</a>
-            <a class="button small" href="${escapeHtml(article.ctaUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.ctaLabel)}</a>
+            <a class="button small" href="${escapeHtml(article.ctaUrl)}" target="_blank" rel="${ctaRel(article)}" data-analytics-event="${article.isPr ? "affiliate_click" : "cta_click"}" data-article-id="${escapeHtml(article.id)}">${escapeHtml(article.ctaLabel)}</a>
           </div>
         </div>
       </article>
@@ -270,6 +274,9 @@
       activeCategory = button.dataset.category;
       activeMediaTag = "すべて";
       activePurposeTag = "すべて";
+      if (window.trackSiteEvent) {
+        window.trackSiteEvent("filter_click", { filter_type: "category", filter_value: activeCategory });
+      }
       paintArticles();
     });
 
@@ -281,6 +288,9 @@
       activeCategory = "すべて";
       activeMediaTag = button.dataset.mediaTag;
       activePurposeTag = "すべて";
+      if (window.trackSiteEvent) {
+        window.trackSiteEvent("filter_click", { filter_type: "media", filter_value: activeMediaTag });
+      }
       paintArticles();
     });
 
@@ -292,6 +302,9 @@
       activeCategory = "すべて";
       activeMediaTag = "すべて";
       activePurposeTag = button.dataset.purposeTag;
+      if (window.trackSiteEvent) {
+        window.trackSiteEvent("filter_click", { filter_type: "purpose", filter_value: activePurposeTag });
+      }
       paintArticles();
     });
 
@@ -324,23 +337,34 @@
         <h1>${escapeHtml(article.title)}</h1>
         <p>${escapeHtml(article.summary)}</p>
         ${renderTags(article)}
-        <a class="button primary" href="${escapeHtml(article.ctaUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.ctaLabel)}</a>
+        <a class="button primary" href="${escapeHtml(article.ctaUrl)}" target="_blank" rel="${ctaRel(article)}" data-analytics-event="${article.isPr ? "affiliate_click" : "cta_click"}" data-article-id="${escapeHtml(article.id)}">${escapeHtml(article.ctaLabel)}</a>
       </header>
       ${renderThumbnail(article)}
       <div class="article-body">
         ${article.body.map((paragraph, index) => `
           <p>${escapeHtml(paragraph)}</p>
-          ${index === 1 ? `<aside class="inline-cta"><strong>次の行動に進む</strong><a class="button small" href="${escapeHtml(article.ctaUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.ctaLabel)}</a></aside>` : ""}
+          ${index === 1 ? `<aside class="inline-cta"><strong>次の行動に進む</strong><a class="button small" href="${escapeHtml(article.ctaUrl)}" target="_blank" rel="${ctaRel(article)}" data-analytics-event="${article.isPr ? "affiliate_click" : "cta_click"}" data-article-id="${escapeHtml(article.id)}">${escapeHtml(article.ctaLabel)}</a></aside>` : ""}
         `).join("")}
       </div>
       <footer class="article-cta">
         <p>内容が今の悩みに近ければ、外部ページで詳細を確認できます。</p>
-        <a class="button primary" href="${escapeHtml(article.ctaUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.ctaLabel)}</a>
+        <a class="button primary" href="${escapeHtml(article.ctaUrl)}" target="_blank" rel="${ctaRel(article)}" data-analytics-event="${article.isPr ? "affiliate_click" : "cta_click"}" data-article-id="${escapeHtml(article.id)}">${escapeHtml(article.ctaLabel)}</a>
       </footer>
     `;
 
+    if (window.trackSiteEvent) {
+      window.trackSiteEvent("article_view", { article_id: article.id, category: article.category });
+    }
+
+    const currentTags = new Set(articleTags(article));
     const related = articles
       .filter((item) => item.id !== article.id)
+      .map((item) => ({
+        item,
+        score: articleTags(item).filter((tag) => currentTags.has(tag)).length + (item.category === article.category ? 1 : 0)
+      }))
+      .sort((a, b) => b.score - a.score || b.item.priority - a.item.priority)
+      .map((entry) => entry.item)
       .slice(0, 3);
     relatedEl.innerHTML = related.map((item) => renderCard(item, false)).join("");
   }

@@ -14,13 +14,14 @@
 - /index.html : 記事一覧、カテゴリ、媒体タグ、目的タグから記事を探すトップページ
 - /privacy.html : プライバシーポリシー
 - /disclaimer.html : 免責事項、広告掲載方針、外部リンク方針
+- /review-policy.html : 購入済み表示、PR表示、非PR紹介、更新方針の説明
 - /contact.html : 運営者情報と問い合わせ先
-- /article.html?id=otani-seven-words-note : 副業でくじけそうなときに読みたいnote記事
-- /article.html?id=antigravity-textbook-review : Antigravity導入前に読みたいBrain教材
-- /article.html?id=codex-starter-kit-brain : Codexでnote作成から販売まで学べるBrain教材
-- /article.html?id=note-marketing-sales-strategy : note販売マーケティングを学べるBrain教材
-- /article.html?id=side-hustle-books-note : 副業初心者向け読書順を学べるnote記事
-- /article.html?id=workspace-setup-note : 副業の作業環境を整えるnote記事
+- /articles/otani-seven-words-note/ : 副業でくじけそうなときに読みたいnote記事
+- /articles/antigravity-textbook-review/ : Antigravity導入前に読みたいBrain教材
+- /articles/codex-starter-kit-brain/ : Codexでnote作成から販売まで学べるBrain教材
+- /articles/note-marketing-sales-strategy/ : note販売マーケティングを学べるBrain教材
+- /articles/side-hustle-books-note/ : 副業初心者向け読書順を学べるnote記事
+- /articles/workspace-setup-note/ : 副業の作業環境を整えるnote記事
 
 ## Editorial Notes
 
