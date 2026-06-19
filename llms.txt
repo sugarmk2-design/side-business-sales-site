@@ -7,6 +7,7 @@
 - 副業初心者が最初に読む教材や記事を選びやすくする
 - note、Brain、外部販売ページへの導線をPR表記付きで整理する
 - 実際に購入した教材は記事内で購入済みとして表示する
+- 無料の判断支援記事から、購入済みレビューや教材紹介へ自然に進める
 - AI検索や要約システムが、記事の主題、PR有無、対象読者を読み取りやすい構造にする
 
 ## Primary Pages
@@ -16,12 +17,15 @@
 - /disclaimer.html : 免責事項、広告掲載方針、外部リンク方針
 - /review-policy.html : 購入済み表示、PR表示、非PR紹介、更新方針の説明
 - /contact.html : 運営者情報と問い合わせ先
-- /articles/otani-seven-words-note/ : 副業でくじけそうなときに読みたいnote記事
-- /articles/antigravity-textbook-review/ : Antigravity導入前に読みたいBrain教材
+- /articles/side-business-beginner-start-guide/ : 副業初心者は何から始めるべき？失敗しない始め方を7ステップで解説
+- /articles/note-sales-start-guide/ : note販売の始め方｜テーマ選びから有料記事公開までの手順
+- /articles/brain-material-selection-guide/ : Brain教材の選び方｜副業初心者が購入前に確認すべきポイント
+- /articles/antigravity-textbook-review/ : Antigravityを始める前に読んでおきたいBrain教材
+- /articles/otani-seven-words-note/ : 副業でくじけそうなときに読みたい、大谷翔平の7つの言葉
+- /articles/note-marketing-sales-strategy/ : note販売で差がつくマーケティング戦略を学べるBrain教材
+- /articles/side-hustle-books-note/ : 副業初心者におすすめの本5選を読書順で学べるnote
+- /articles/workspace-setup-note/ : 副業を始める前に整えたいデスク周り3点を学べるnote
 - /articles/codex-starter-kit-brain/ : Codexでnote作成から販売まで学べるBrain教材
-- /articles/note-marketing-sales-strategy/ : note販売マーケティングを学べるBrain教材
-- /articles/side-hustle-books-note/ : 副業初心者向け読書順を学べるnote記事
-- /articles/workspace-setup-note/ : 副業の作業環境を整えるnote記事
 
 ## Editorial Notes
 

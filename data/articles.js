@@ -1,5 +1,59 @@
 window.SALES_SITE_ARTICLES = [
   {
+    id: "side-business-beginner-start-guide",
+    title: "副業初心者は何から始めるべき？失敗しない始め方を7ステップで解説",
+    category: "副業初心者",
+    summary: "副業初心者が最初にやるべきことを7ステップで解説。月1万円を目指す現実的な始め方、避けた方がいい副業、教材を買う前の注意点まで整理します。",
+    thumbnail: "./assets/images/side-hustle-desk-banner-v2.webp",
+    thumbnailTone: "mint",
+    mediaTags: ["無料記事"],
+    purposeTags: ["副業初心者","始め方","月1万円","note販売","教材選び"],
+    body: ["副業初心者は、最初から大きく稼ごうとせず、小さく始めて30日検証することが大切です。目標設定、時間管理、経験の棚卸し、最初の副業の選び方を整理します。","教材やツールを買う前に、まずは自分が使える時間と、無料で公開できる小さなテーマを確認しましょう。必要になってから学ぶ順番にすると、遠回りを減らせます。","この記事では、最初の目標金額、時間の作り方、経験の棚卸し、30日検証までを7ステップで確認します。"],
+    ctaLabel: "note販売の始め方を読む",
+    ctaUrl: "./articles/note-sales-start-guide/",
+    affiliateType: "other",
+    isPr: false,
+    priority: 130,
+    listedAt: "2026-06-19",
+    sourcePublishedAt: null,
+  },
+  {
+    id: "note-sales-start-guide",
+    title: "note販売の始め方｜テーマ選びから有料記事公開までの手順",
+    category: "note販売",
+    summary: "noteで有料記事を販売したい初心者向けに、テーマ選び、無料部分と有料部分の分け方、価格設定、公開後の集客まで解説します。",
+    thumbnail: "./assets/images/side-hustle-desk-banner-v2.webp",
+    thumbnailTone: "amber",
+    mediaTags: ["note"],
+    purposeTags: ["note販売","有料note","テーマ選び","販売導線"],
+    body: ["note販売では、書きたいことを書くのではなく、読者の悩みから逆算して記事を作ることが重要です。","最初に決めるべきなのはテーマそのものではなく、誰のどんな悩みを解決するかです。無料部分と有料部分を分け、価格と導線まで設計してから公開します。","この記事では、読者設定、テーマ選び、記事構成、価格設定、公開後の集客、購入者対応までを順番に整理します。"],
+    ctaLabel: "Brain教材の選び方を読む",
+    ctaUrl: "./articles/brain-material-selection-guide/",
+    affiliateType: "other",
+    isPr: false,
+    priority: 129,
+    listedAt: "2026-06-19",
+    sourcePublishedAt: null,
+  },
+  {
+    id: "brain-material-selection-guide",
+    title: "Brain教材の選び方｜副業初心者が購入前に確認すべきポイント",
+    category: "教材選び",
+    summary: "Brain教材を買う前に確認すべきポイントを解説。対象者、内容、レビュー、価格、紹介報酬、購入後の行動まで整理します。",
+    thumbnail: "./assets/images/codex-starter-kit-brain.webp",
+    thumbnailTone: "blue",
+    mediaTags: ["Brain"],
+    purposeTags: ["Brain教材","教材選び","購入前チェック","副業初心者"],
+    body: ["Brain教材は、人気や紹介報酬ではなく、自分の現在の課題に合っているかで選ぶことが大切です。","教材を探す前に、何を学びたいのか、どこで止まっているのか、購入後に何を作るのかを決めておくと失敗しにくくなります。","この記事では、対象者、ゴール、内容範囲、レビュー、紹介報酬、価格、購入後の行動まで、購入前に確認したいポイントを整理します。"],
+    ctaLabel: "購入済みレビューを読む",
+    ctaUrl: "./articles/codex-starter-kit-brain/",
+    affiliateType: "other",
+    isPr: false,
+    priority: 128,
+    listedAt: "2026-06-19",
+    sourcePublishedAt: null,
+  },
+  {
     id: "antigravity-textbook-review",
     title: "Antigravityを始める前に読んでおきたいBrain教材",
     category: "Brain教材",
@@ -7,12 +61,8 @@ window.SALES_SITE_ARTICLES = [
     thumbnail: "./assets/images/antigravity-textbook.webp",
     thumbnailTone: "blue",
     mediaTags: ["Brain"],
-    purposeTags: ["AI開発", "Antigravity", "導入ガイド"],
-    body: [
-      "このBrain教材は、Antigravityを使い始めるときに必要になる前提知識や、初期段階で詰まりやすいポイントを確認したい人に向いています。実際に購入して読んだうえで、導入前に知っておきたかった情報が多くまとまっていると感じたため、Brain教材の最初のおすすめとして紹介します。",
-      "特に、AI開発ツールを触り始めたばかりの段階では、何が仕様で、何が自分の設定ミスなのかを切り分けにくくなります。この記事は、その迷いやすい部分を事前に把握するための補助線として役立ちます。",
-      "Antigravity 2になっても、基本的な考え方や導入時の詰まりどころを理解する参考になります。これからAntigravityを試したい人、または一度触ってみたものの途中で止まってしまった人は、最初に確認しておく価値があります。"
-    ],
+    purposeTags: ["AI開発","Antigravity","導入ガイド"],
+    body: ["このBrain教材は、Antigravityを使い始めるときに必要になる前提知識や、初期段階で詰まりやすいポイントを確認したい人に向いています。実際に購入して読んだうえで、導入前に知っておきたかった情報が多くまとまっていると感じたため、Brain教材の最初のおすすめとして紹介します。","特に、AI開発ツールを触り始めたばかりの段階では、何が仕様で、何が自分の設定ミスなのかを切り分けにくくなります。この記事は、その迷いやすい部分を事前に把握するための補助線として役立ちます。","Antigravity 2になっても、基本的な考え方や導入時の詰まりどころを理解する参考になります。これからAntigravityを試したい人、または一度触ってみたものの途中で止まってしまった人は、最初に確認しておく価値があります。"],
     ctaLabel: "Brain教材を見る",
     ctaUrl: "https://brmk.io/uVruYm",
     affiliateType: "brain",
@@ -21,7 +71,7 @@ window.SALES_SITE_ARTICLES = [
     reviewBasis: "購入済み",
     priority: 109,
     listedAt: "2026-06-14",
-    sourcePublishedAt: "2026-02-13"
+    sourcePublishedAt: "2026-02-13",
   },
   {
     id: "otani-seven-words-note",
@@ -31,19 +81,15 @@ window.SALES_SITE_ARTICLES = [
     thumbnail: "./assets/images/side-hustle-desk-banner-v2.webp",
     thumbnailTone: "mint",
     mediaTags: ["note"],
-    purposeTags: ["副業マインド", "継続", "初心者向け"],
-    body: [
-      "副業は、始めることよりも続けることのほうが難しい場面があります。思ったように成果が出ない、時間が取れない、何を優先すればよいか分からない。そんなときに、気持ちを立て直す読み物があると、次の一歩を踏み出しやすくなります。",
-      "このnote記事は、副業初心者がくじけそうになるタイミングで読み返したい内容として紹介します。ノウハウを詰め込む記事とは少し違い、行動する人の背中を押す言葉を受け取れるのが魅力です。",
-      "副業を続ける気持ちが弱くなったとき、作業前の気持ちを整えたいときに、まず読んでみる記事としておすすめします。"
-    ],
+    purposeTags: ["副業マインド","継続","初心者向け"],
+    body: ["副業は、始めることよりも続けることのほうが難しい場面があります。思ったように成果が出ない、時間が取れない、何を優先すればよいか分からない。そんなときに、気持ちを立て直す読み物があると、次の一歩を踏み出しやすくなります。","このnote記事は、副業初心者がくじけそうになるタイミングで読み返したい内容として紹介します。ノウハウを詰め込む記事とは少し違い、行動する人の背中を押す言葉を受け取れるのが魅力です。","副業を続ける気持ちが弱くなったとき、作業前の気持ちを整えたいときに、まず読んでみる記事としておすすめします。"],
     ctaLabel: "noteで読む",
     ctaUrl: "https://note.com/fond_liger9581/n/n035234188153",
     affiliateType: "note",
     isPr: false,
     priority: 110,
     listedAt: "2026-06-14",
-    sourcePublishedAt: null
+    sourcePublishedAt: null,
   },
   {
     id: "note-marketing-sales-strategy",
@@ -53,12 +99,8 @@ window.SALES_SITE_ARTICLES = [
     thumbnail: "./assets/images/note-marketing-sales-strategy.webp",
     thumbnailTone: "amber",
     mediaTags: ["Brain"],
-    purposeTags: ["note販売", "マーケティング", "販売戦略"],
-    body: [
-      "noteは「書けば売れる」と思われがちですが、実際にはテーマ選び、見せ方、導線、販売前後の設計で大きく差が出ます。このBrain教材は、note販売をマーケティングの視点から考えたい人に向いた記事です。",
-      "note関連の情報は、文章術や継続方法に寄りやすい一方で、販売戦略まで踏み込んで整理されているものは多くありません。実際に購入して読んだうえで、noteを売る前に知っておきたい考え方を確認できる教材として紹介します。",
-      "これから有料noteを作りたい人、すでに書いているけれど販売につながらない人、Brainやnoteを含めたコンテンツ販売の導線を見直したい人にとって、最初の改善ポイントを見つける参考になります。"
-    ],
+    purposeTags: ["note販売","マーケティング","販売戦略"],
+    body: ["noteは「書けば売れる」と思われがちですが、実際にはテーマ選び、見せ方、導線、販売前後の設計で大きく差が出ます。このBrain教材は、note販売をマーケティングの視点から考えたい人に向いた記事です。","note関連の情報は、文章術や継続方法に寄りやすい一方で、販売戦略まで踏み込んで整理されているものは多くありません。実際に購入して読んだうえで、noteを売る前に知っておきたい考え方を確認できる教材として紹介します。","これから有料noteを作りたい人、すでに書いているけれど販売につながらない人、Brainやnoteを含めたコンテンツ販売の導線を見直したい人にとって、最初の改善ポイントを見つける参考になります。"],
     ctaLabel: "Brain教材を見る",
     ctaUrl: "https://brmk.io/g9w643",
     affiliateType: "brain",
@@ -67,7 +109,7 @@ window.SALES_SITE_ARTICLES = [
     reviewBasis: "購入済み",
     priority: 96,
     listedAt: "2026-06-14",
-    sourcePublishedAt: "2025-02-22"
+    sourcePublishedAt: "2025-02-22",
   },
   {
     id: "side-hustle-books-note",
@@ -77,19 +119,15 @@ window.SALES_SITE_ARTICLES = [
     thumbnail: "./assets/images/side-hustle-books-note.webp",
     thumbnailTone: "mint",
     mediaTags: ["note"],
-    purposeTags: ["読書", "副業入門", "月5万円"],
-    body: [
-      "副業を始めるとき、いきなりノウハウや高額教材に飛びつく前に、土台になる考え方を整えることは大切です。このnote記事は、副業初心者がまず読んでおきたい本を、読む順番まで含めて紹介している記事です。",
-      "本選びで迷いやすい人にとって、何から読めばよいかが整理されているのは大きな助けになります。お金の考え方、継続するための覚悟、集中力、文章力、販売理解のように、副業で必要になる基礎を段階的に確認できます。",
-      "副業を始める前に基礎を固めたい人、情報収集で遠回りしたくない人に、最初の読書リストとしておすすめします。"
-    ],
+    purposeTags: ["読書","副業入門","月5万円"],
+    body: ["副業を始めるとき、いきなりノウハウや高額教材に飛びつく前に、土台になる考え方を整えることは大切です。このnote記事は、副業初心者がまず読んでおきたい本を、読む順番まで含めて紹介している記事です。","本選びで迷いやすい人にとって、何から読めばよいかが整理されているのは大きな助けになります。お金の考え方、継続するための覚悟、集中力、文章力、販売理解のように、副業で必要になる基礎を段階的に確認できます。","副業を始める前に基礎を固めたい人、情報収集で遠回りしたくない人に、最初の読書リストとしておすすめします。"],
     ctaLabel: "noteで読む",
     ctaUrl: "https://note.com/artist_kishira/n/nb154850e4d03",
     affiliateType: "note",
     isPr: false,
     priority: 95,
     listedAt: "2026-06-14",
-    sourcePublishedAt: "2026-02-26"
+    sourcePublishedAt: "2026-02-26",
   },
   {
     id: "workspace-setup-note",
@@ -99,12 +137,8 @@ window.SALES_SITE_ARTICLES = [
     thumbnail: "./assets/images/workspace-setup-note.webp",
     thumbnailTone: "mint",
     mediaTags: ["note"],
-    purposeTags: ["作業環境", "デスク周り", "ガジェット"],
-    body: [
-      "副業を始めると、デスク、チェア、モニター、ライトなど、いろいろな道具を揃えたくなります。ただ、作業内容がまだ固まっていない段階で高い道具から買い始めると、あとで合わなかったと感じることもあります。",
-      "このnote記事は、副業の作業環境を整えたい人に向けて、まず確認したいデスク周りの条件を3つに絞って紹介している記事です。見た目の良さよりも、作業を始めやすく、続けやすい環境かどうかに目を向けられる点が参考になります。",
-      "副業を長く続けるには、気合いだけでなく、机に向かうまでのハードルを下げることも大切です。これから作業環境を見直したい人は、買い物を始める前に一度読んでみるのがおすすめです。"
-    ],
+    purposeTags: ["作業環境","デスク周り","ガジェット"],
+    body: ["副業を始めると、デスク、チェア、モニター、ライトなど、いろいろな道具を揃えたくなります。ただ、作業内容がまだ固まっていない段階で高い道具から買い始めると、あとで合わなかったと感じることもあります。","このnote記事は、副業の作業環境を整えたい人に向けて、まず確認したいデスク周りの条件を3つに絞って紹介している記事です。見た目の良さよりも、作業を始めやすく、続けやすい環境かどうかに目を向けられる点が参考になります。","副業を長く続けるには、気合いだけでなく、机に向かうまでのハードルを下げることも大切です。これから作業環境を見直したい人は、買い物を始める前に一度読んでみるのがおすすめです。"],
     ctaLabel: "noteで読む",
     ctaUrl: "https://note.com/notepcdesk/n/n5f4470b9934a",
     affiliateType: "note",
@@ -112,7 +146,7 @@ window.SALES_SITE_ARTICLES = [
     disclosure: "リンク先にアフィリエイトリンクを含む場合があります",
     priority: 94,
     listedAt: "2026-06-14",
-    sourcePublishedAt: "2026-05-19"
+    sourcePublishedAt: "2026-05-19",
   },
   {
     id: "codex-starter-kit-brain",
@@ -122,12 +156,8 @@ window.SALES_SITE_ARTICLES = [
     thumbnail: "./assets/images/codex-starter-kit-brain.webp",
     thumbnailTone: "blue",
     mediaTags: ["Brain"],
-    purposeTags: ["Codex", "note販売", "集客"],
-    body: [
-      "このBrain教材は、Codexを使ってnote作成から集客、販売までを一貫して学びたい人に向いています。副業初心者にとって、記事を書くことだけでなく、どう見せて、どう届けて、どう販売につなげるかまでをまとめて考えられる点が魅力です。",
-      "note販売に挑戦すると、本文作成、タイトル、導線、販売ページ、SNS連携など、やることが一気に増えます。Codexを活用することで、その作業を分解しながら進められるため、最初の1万円を目指す導線づくりの参考になります。",
-      "これからnote販売を始めたい人、AIを使って作業を短縮したい人、作成から販売までの全体像を先に押さえたい人は、最初に確認しておきたい教材です。"
-    ],
+    purposeTags: ["Codex","note販売","集客"],
+    body: ["このBrain教材は、Codexを使ってnote作成から集客、販売までを一貫して学びたい人に向いています。副業初心者にとって、記事を書くことだけでなく、どう見せて、どう届けて、どう販売につなげるかまでをまとめて考えられる点が魅力です。","note販売に挑戦すると、本文作成、タイトル、導線、販売ページ、SNS連携など、やることが一気に増えます。Codexを活用することで、その作業を分解しながら進められるため、最初の1万円を目指す導線づくりの参考になります。","これからnote販売を始めたい人、AIを使って作業を短縮したい人、作成から販売までの全体像を先に押さえたい人は、最初に確認しておきたい教材です。"],
     ctaLabel: "Brain教材を見る",
     ctaUrl: "https://brmk.io/umgvx4",
     affiliateType: "brain",
@@ -136,6 +166,6 @@ window.SALES_SITE_ARTICLES = [
     reviewBasis: "購入済み",
     priority: 97,
     listedAt: "2026-06-14",
-    sourcePublishedAt: "2026-05-27"
-  },
+    sourcePublishedAt: "2026-05-27",
+  }
 ];

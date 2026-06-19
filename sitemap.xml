@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://side-business-sales-site.netlify.app/</loc>
-    <lastmod>2026-06-14</lastmod>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://side-business-sales-site.netlify.app/privacy.html</loc>
@@ -21,15 +21,23 @@
     <lastmod>2026-06-15</lastmod>
   </url>
   <url>
-    <loc>https://side-business-sales-site.netlify.app/articles/otani-seven-words-note/</loc>
-    <lastmod>2026-06-14</lastmod>
+    <loc>https://side-business-sales-site.netlify.app/articles/side-business-beginner-start-guide/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://side-business-sales-site.netlify.app/articles/note-sales-start-guide/</loc>
+    <lastmod>2026-06-19</lastmod>
+  </url>
+  <url>
+    <loc>https://side-business-sales-site.netlify.app/articles/brain-material-selection-guide/</loc>
+    <lastmod>2026-06-19</lastmod>
   </url>
   <url>
     <loc>https://side-business-sales-site.netlify.app/articles/antigravity-textbook-review/</loc>
     <lastmod>2026-06-14</lastmod>
   </url>
   <url>
-    <loc>https://side-business-sales-site.netlify.app/articles/codex-starter-kit-brain/</loc>
+    <loc>https://side-business-sales-site.netlify.app/articles/otani-seven-words-note/</loc>
     <lastmod>2026-06-14</lastmod>
   </url>
   <url>
@@ -42,6 +50,10 @@
   </url>
   <url>
     <loc>https://side-business-sales-site.netlify.app/articles/workspace-setup-note/</loc>
+    <lastmod>2026-06-14</lastmod>
+  </url>
+  <url>
+    <loc>https://side-business-sales-site.netlify.app/articles/codex-starter-kit-brain/</loc>
     <lastmod>2026-06-14</lastmod>
   </url>
 </urlset>
