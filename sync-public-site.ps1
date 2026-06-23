@@ -1,4 +1,4 @@
-﻿param(
+param(
   [string]$Source = "C:\Users\User1\副業\side_business-local\会社\開発部\sales-site",
   [string]$Destination = $PSScriptRoot
 )
@@ -28,6 +28,7 @@ $publicFiles = @(
   "articles\side-business-beginner-start-guide\index.html",
   "articles\note-sales-start-guide\index.html",
   "articles\brain-material-selection-guide\index.html",
+  "articles\paid-note-not-selling-reasons\index.html",
   "assets\images\antigravity-textbook.png",
   "assets\images\antigravity-textbook.webp",
   "assets\images\codex-starter-kit-brain.png",
@@ -83,4 +84,5 @@ if (($results | Where-Object { -not $_.Synced }).Count -gt 0) {
 
 Write-Host "Public site sync completed."
 Write-Host "Next steps: git status, git add ., git commit, git push"
+
 
