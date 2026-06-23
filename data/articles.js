@@ -187,3 +187,4 @@ window.SALES_SITE_ARTICLES = [
     sourcePublishedAt: "2026-05-27",
   }
 ];
+
