@@ -1,5 +1,23 @@
 window.SALES_SITE_ARTICLES = [
   {
+    id: "ai-note-writing-workflow",
+    title: "AIでnote記事を書く手順｜構成案から本文修正までの流れ",
+    category: "AI活用",
+    summary: "ChatGPTなどのAIを使ってnote記事の構成案、下書き、推敲、公開前チェックを進める流れを初心者向けに整理します。",
+    thumbnail: "./assets/images/side-hustle-desk-banner-v2.webp",
+    thumbnailTone: "blue",
+    mediaTags: ["無料記事","AI活用","note"],
+    purposeTags: ["AIライティング","note販売","構成案","本文修正","公開前チェック"],
+    body: ["AIでnote記事を書くときは、本文を丸投げするのではなく、読者設定、構成案、下書き、推敲、公開前チェックに分けて使うと失敗しにくくなります。","最初に読者の悩みと記事の役割を決め、AIには見出し案や不足チェックを手伝わせます。最後は自分の経験、具体例、注意点を足して、AIっぽい文章を整えることが大切です。","この記事では、note販売の基本手順と売れない原因の見直し記事につなげながら、AIを安全に使う作業フローを整理します。"],
+    ctaLabel: "有料noteが売れない原因を確認する",
+    ctaUrl: "./articles/paid-note-not-selling-reasons/",
+    affiliateType: "other",
+    isPr: false,
+    priority: 126,
+    listedAt: "2026-07-01",
+    sourcePublishedAt: null,
+  },
+  {
     id: "side-business-beginner-start-guide",
     title: "副業初心者は何から始めるべき？失敗しない始め方を7ステップで解説",
     category: "副業初心者",
@@ -187,4 +205,3 @@ window.SALES_SITE_ARTICLES = [
     sourcePublishedAt: "2026-05-27",
   }
 ];
-

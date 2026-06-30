@@ -29,6 +29,7 @@ $publicFiles = @(
   "articles\note-sales-start-guide\index.html",
   "articles\brain-material-selection-guide\index.html",
   "articles\paid-note-not-selling-reasons\index.html",
+  "articles\ai-note-writing-workflow\index.html",
   "assets\images\antigravity-textbook.png",
   "assets\images\antigravity-textbook.webp",
   "assets\images\codex-starter-kit-brain.png",
@@ -84,5 +85,3 @@ if (($results | Where-Object { -not $_.Synced }).Count -gt 0) {
 
 Write-Host "Public site sync completed."
 Write-Host "Next steps: git status, git add ., git commit, git push"
-
-

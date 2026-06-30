@@ -21,6 +21,7 @@
 - /articles/note-sales-start-guide/ : note販売の始め方｜テーマ選びから有料記事公開までの手順
 - /articles/brain-material-selection-guide/ : Brain教材の選び方｜副業初心者が購入前に確認すべきポイント
 - /articles/paid-note-not-selling-reasons/ : 有料noteが売れない原因7つ｜初心者が見直すべき導線と無料部分
+- /articles/ai-note-writing-workflow/ : AIでnote記事を書く手順｜構成案から本文修正までの流れ
 - /articles/antigravity-textbook-review/ : Antigravityを始める前に読んでおきたいBrain教材
 - /articles/otani-seven-words-note/ : 副業でくじけそうなときに読みたい、大谷翔平の7つの言葉
 - /articles/note-marketing-sales-strategy/ : note販売で差がつくマーケティング戦略を学べるBrain教材
